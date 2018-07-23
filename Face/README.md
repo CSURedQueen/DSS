@@ -10,9 +10,9 @@ LINK：https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/5-13-A
 
   <br><br><br>
 After training (this training model is not too complicated, so the 3G version of the GTX1060 graphics card, the training speed is also very fast), the accuracy of the training set up to 99%, but only 54% in the verification set and test set Left and right precision;<br><br>
-   Moreover, no matter how the network structure is adjusted, even the Droup-out method can not bring further improvement in accuracy. Therefore, I speculate that it is limited to the data itself and the network complexity. This precision is already acceptable (I saw it on Kaggle). In this type of competition, top-1 is only about 70% accurate.)<br><br>
+Moreover, no matter how the network structure is adjusted, even the Droup-out method can not bring further improvement in accuracy. Therefore, I speculate that it is limited to the data itself and the network complexity. This precision is already acceptable (I saw it on Kaggle). In this type of competition, top-1 is only about 70% accurate.)<br><br>
    <br>
-   Therefore, after comprehensive consideration, I decided to use Bagging integrated learning method to integrate a series of heterogeneous CNN networks to achieve accuracy improvement<br>
-   By modifying the network structure, including the number of convolution/pooling layers and Kernel size, the number of nodes in the fully connected layer, the keep_prob ratio in the droup-out, the activation function method, etc., a total of 10 small CNN models are constructed. Accuracy is between 45% and 56%<br><br><br><br><br><br>
+Therefore, after comprehensive consideration, I decided to use Bagging integrated learning method to integrate a series of heterogeneous CNN networks to achieve accuracy improvement<br>
+By modifying the network structure, including the number of convolution/pooling layers and Kernel size, the number of nodes in the fully connected layer, the keep_prob ratio in the droup-out, the activation function method, etc., a total of 10 small CNN models are constructed. Accuracy is between 45% and 56%<br><br><br><br><br><br>
 
 
